@@ -1,0 +1,43 @@
+.blogDetails h2{
+    font-size: 20px;
+    color: #009617;
+    margin-bottom: 20px;
+  }
+
+  .blogImage{
+    display: block;
+    width: 100%;
+  }
+  
+  .blogImage img{
+    max-width: 100%;
+  }
+  
+  .blogDetails .blogDate{
+    display: block;
+  }
+  
+  .blogDetails .blogAuthor{
+    font-style: italic;
+  }
+  
+  .blogDetails .blogCategory{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .blogDetails p{
+    margin: 20px 0;
+    line-height: 1.5rem;
+  }
+  
+  .blogDetails button{
+    background: #009617;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }

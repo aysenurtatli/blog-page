@@ -1,0 +1,12 @@
+:root{
+    /* Light Mode */
+    --light-bg-color: #faf9f9;
+    --light-card-bg-color: #ffffff;
+    /* Dark Mode */
+    --dark-bg-color: #1f1f1f;
+    --dark-card-bg-color: #2b2b2b;
+    --text-color: #6d6d6d;
+    --border-color: #5e5e5e35;
+    --title-color: #00b73a;
+    --card-bg-color: #2b2b2b
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto Slab", serif;
+  position: relative;
+}
+
+body.light{
+  background-color: var(--light-bg-color);
+  color: var(--text-color);
+  transition: 0.2s ease;
+}
+
+body.dark{
+  background-color: var(--dark-bg-color);
+  color: var(--text-color);
+  transition: 0.2s ease;
+
+}
+
+.content{
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+/* Blog */
+
+
+/* Blog Details */
+
+
+/* Blog Form */
+
+/* NOT FOUND */
+.not-found{
+  background-color: #2b2b2b;
+  padding: 50px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.not-found h2,
+.not-found p{
+  color: #fff;
+  font-size: 30px;
+}
+
+.homepage-link{
+  text-decoration: underline;
+  color:#fff;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 20px;
+}
+
+/* From Uiverse.io by mrhyddenn */
+.loading-screen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  opacity: 1;
+  visibility: visible;
+  background-color: var(--dark-bg-color);
+}
+
+.loading-screen.hidden {
+  opacity: 0; 
+  visibility: hidden; 
+}
+
+.spinner{
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+} 
+.center{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.loader {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid rgb(255,255,255,.2);
+  border-top-color: transparent;
+  animation: rot1 1.2s linear infinite;
+}
+
+@keyframes rot1 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer */
+footer{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-top: 1px solid #5e5e5e35;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+footer span{
+  color: #666666;
+  font-size: 16px;
+}
+
+footer .social-links{
+  margin-left: auto;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+footer a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #666666;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+footer a:hover{
+  color: #009617;
+}
+
+@media screen and (max-width: 768px){
+  .blogList{
+    grid-template-columns: 1fr;
+  }
+  .home-content{
+    display: block;
+  }
+
+  .top-5-blogs{
+    margin-inline: 0;
+    margin-block: 2rem;
+  }
+}

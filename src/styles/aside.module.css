@@ -1,0 +1,52 @@
+.content{
+    width: 100%;
+    flex: 1;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+  .content.dark{
+    background-color: var(--dark-card-bg-color);
+    transition: 0.2s ease;
+    box-shadow: 0px 0px 10px 0px rgb(25, 25, 25);
+  }
+  
+  .content.light{
+    background-color: var(--light-card-bg-color);
+    transition: 0.2s ease;
+    box-shadow: 0px 0px 10px 0px rgb(213, 213, 213);
+  }
+
+  .topBlogs{
+    margin-bottom: 2rem;
+  }
+  
+  .topBlogs h3,
+  .categories h3{
+    color: var(--title-color);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .topBlogs ol,
+  .categories ul{
+    margin-left: 1rem;
+  }
+  
+  .topBlogs ol li,
+  .categories ul li{
+    margin-block: 1rem;
+  }
+  
+  .topBlogs ol li a,
+  .categories ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.3s ease;
+  }
+  
+  .topBlogs ol li a:hover,
+  .categories ul li a:hover{
+    color: #009617;
+  }
+  

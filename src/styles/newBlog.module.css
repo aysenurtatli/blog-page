@@ -1,0 +1,63 @@
+.create{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .create label{
+    text-align: left;
+    display: block;
+  }
+  
+  .create h2{
+    font-size: 20px;
+    color: #009617;
+    margin-bottom: 30px;
+  }
+  
+  .create input,
+  .create textarea,
+  .create select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: none;
+    color: var(--text-color);
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: none;
+    display: block;
+  }
+  
+  .create input.light,
+  .create textarea.light,
+  .create select.light{
+    background-color: var(--light-card-bg-color);
+    transition: 0.2s ease;
+    box-shadow: 0px 0px 4px 0px rgba(133, 133, 133, 0.329);
+  }
+  
+  .create input.dark,
+  .create textarea.dark,
+  .create select.dark{
+    transition: 0.2s ease;
+    background-color: var(--dark-card-bg-color);
+    box-shadow: 0px 0px 4px 0px rgba(23, 23, 23, 0.329);
+  }
+  
+  .create input:focus,
+  .create textarea:focus,
+  .create select:focus{
+    outline: none;
+  }
+  
+  .create button{
+    background: #009617;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

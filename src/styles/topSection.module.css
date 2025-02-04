@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 768px){
+    .content{
+      flex-direction: column;
+    }
+  }
+  
