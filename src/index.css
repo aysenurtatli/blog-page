@@ -1,46 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Roboto Slab", serif;
   position: relative;
 }
 
-body.light{
+body.light {
   background-color: var(--light-bg-color);
   color: var(--text-color);
   transition: 0.2s ease;
 }
 
-body.dark{
+body.dark {
   background-color: var(--dark-bg-color);
   color: var(--text-color);
   transition: 0.2s ease;
 
 }
 
-.content{
+.content {
   max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
 }
 
 
-/* Blog */
-
-
-/* Blog Details */
-
-
-/* Blog Form */
-
 /* NOT FOUND */
-.not-found{
+.not-found {
   background-color: #2b2b2b;
   padding: 50px;
   border-radius: 8px;
@@ -48,21 +40,20 @@ body.dark{
 }
 
 .not-found h2,
-.not-found p{
+.not-found p {
   color: #fff;
   font-size: 30px;
 }
 
-.homepage-link{
+.homepage-link {
   text-decoration: underline;
-  color:#fff;
+  color: #fff;
   font-weight: bold;
   padding: 8px;
   font-size: 20px;
 }
 
-/* From Uiverse.io by mrhyddenn */
-.loading-screen{
+.loading-screen {
   position: fixed;
   top: 0;
   left: 0;
@@ -78,17 +69,18 @@ body.dark{
 }
 
 .loading-screen.hidden {
-  opacity: 0; 
-  visibility: hidden; 
+  opacity: 0;
+  visibility: hidden;
 }
 
-.spinner{
+.spinner {
   position: relative;
   display: inline-block;
   width: 1em;
   height: 1em;
-} 
-.center{
+}
+
+.center {
   position: absolute;
   left: 0;
   right: 0;
@@ -96,11 +88,12 @@ body.dark{
   bottom: 0;
   margin: auto;
 }
+
 .loader {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 3px solid rgb(255,255,255,.2);
+  border: 3px solid rgb(77, 77, 77);
   border-top-color: transparent;
   animation: rot1 1.2s linear infinite;
 }
@@ -112,7 +105,7 @@ body.dark{
 }
 
 /* Footer */
-footer{
+footer {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -121,12 +114,12 @@ footer{
   max-width: 1200px;
 }
 
-footer span{
+footer span {
   color: #666666;
   font-size: 16px;
 }
 
-footer .social-links{
+footer .social-links {
   margin-left: auto;
 }
 
@@ -135,7 +128,7 @@ footer .social-links a {
   font-size: 1.5rem;
 }
 
-footer a{
+footer a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
@@ -144,19 +137,20 @@ footer a{
   transition: 0.3s ease;
 }
 
-footer a:hover{
+footer a:hover {
   color: #009617;
 }
 
-@media screen and (max-width: 768px){
-  .blogList{
+@media screen and (max-width: 768px) {
+  .blogList {
     grid-template-columns: 1fr;
   }
-  .home-content{
+
+  .home-content {
     display: block;
   }
 
-  .top-5-blogs{
+  .top-5-blogs {
     margin-inline: 0;
     margin-block: 2rem;
   }
