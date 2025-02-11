@@ -1,6 +1,6 @@
 # React + Vite
 
-# Live Demo
+# Preview
 [![Proje Önizleme](src/assets/preview.png)]
 
 
